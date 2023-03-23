@@ -1,0 +1,30 @@
+{
+  "name": "arcticle-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndriusStravinskas/arcticle-back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndriusStravinskas/arcticle-back/issues"
+  },
+  "homepage": "https://github.com/AndriusStravinskas/arcticle-back#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.2",
+    "nodemon": "^2.0.21",
+    "uid": "^2.0.1",
+    "yup": "^1.0.2"
+  }
+}
