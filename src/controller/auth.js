@@ -35,7 +35,7 @@ module.exports = {
     if(!findUserByemail) return res.send({error: true, message: "User does not exist"})
     const PasswordMatch = await bcrypt.compare(password, findUserByemail.password)
     if(!PasswordMatch) return res.send({error: true, message: "User does not exist"})
-    
+    console.log(findUserByemail.email)
     return res.send({
       error: false, 
       message: `user with id: ${findUserByemail.secret} Login successfully`, 
